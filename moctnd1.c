@@ -108,17 +108,17 @@ int main() {
     // Dataset 1: User-defined dataset
     int n1;
     printf("\e[1;1H\e[2J");
-    printf("\n Sample Size of 1st Dataset: ");
+    printf("\n Sample Size: ");
     printf(" ");
     scanf(" %d", &n1);
     
     double data1[n1];
-    printf("\n Enter %d data points:", n1);
+    printf("\n Enter %d Data Points:", n1);
     for (int i = 0; i < n1; i++) {
         scanf(" %lf", &data1[i]);
     }
     printf("\e[1;1H\e[2J");    
-    printf("\n\n Dataset 1: [Original Data] \n\n");
+    printf("\n\n Results: [Original Data] \n\n");
     double mean1 = calculate_mean(data1, n1);
     double median1 = calculate_median(data1, n1);
     double mode1 = calculate_mode(data1, n1);
@@ -159,7 +159,7 @@ printf(" %.2lf", data1[i]);
          data1[n1-1]=mean1+mean1/2;
 
 //    data2[n2-1] = 2*mean2;
-    printf("\n\n Dataset 1: [Manupulated Data]:\n\n");
+    printf("\n\n Results: [Manupulated Data]:\n\n");
 
        for (int i = 0; i < n1; i++)      
          printf(" %.2lf", data1[i]);

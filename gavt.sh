@@ -35,3 +35,19 @@ image1.jpg                         pup.html
 git add .
 git commit -m "GAVT"
 git push origin main
+
+OUTPUT : 
+  [
+ 2 files changed, 222 insertions(+)
+ create mode 100644 gavt.sh
+ create mode 100644 moctnd1.c
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 2.07 KiB | 2.07 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:AV971978/rtest001
+   8351310..ae449c9  main -> main
+  ]
